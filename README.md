@@ -28,7 +28,7 @@ make -f Makefile2
 ```
 
 ## cmake
-**Generate and use Unix makefie (Makeile)**
+**Generate and use Unix makefie (Makefile)**
 ```
 mkdir build
 cd build
