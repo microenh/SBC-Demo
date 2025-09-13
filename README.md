@@ -24,7 +24,7 @@ make
 
 **using alternate (Makefile2)**
 ```
-make -f <Makefile2>
+make -f Makefile2
 ```
 
 ## cmake
