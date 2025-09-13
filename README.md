@@ -9,6 +9,13 @@ sudo apt install -y build-essential cmake git ninja-build
 ```
 **_build_essential_** *installs libc, gcc, g++, make and dpkg-dev*
 
+## Download demo files (clone repository)
+```
+mkdir Developer
+cd Developer
+git clone https://github.com/microenh/SBC-Demo
+```
+
 ## make
 **using default (Makefile)**
 ```
@@ -34,7 +41,7 @@ make
 ```
 mkdir build_ninja
 cd build_ninja
-cmake -g Ninja ..
+cmake -G Ninja ..
 
 ninja
 ```
